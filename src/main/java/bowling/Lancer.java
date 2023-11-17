@@ -9,7 +9,7 @@ public class Lancer {
 		}
 		this.nbQuille = nbQuille;
 	}
-	
+
 	public Lancer() {
 		this(-1);
 	}
@@ -17,9 +17,9 @@ public class Lancer {
 	public int getNbQuille() {
 		return nbQuille;
 	}
-	
+
 	public void setNbQuille(int nbQuille) {
-		if (nbQuille > 10 || nbQuille < 0){
+		if (nbQuille > 10 || nbQuille < 0) {
 			throw new IllegalArgumentException("nb quille incorrect");
 		}
 		this.nbQuille = nbQuille;
